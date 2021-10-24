@@ -1,3 +1,17 @@
+###DOGS create
+POST http://localhost:3000/dogs.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzUwMTY1NzB9.xwP6Hk0fw2zLCRkDUOpMGhuLG82PhCGAfK_sCDzlztE
+Content-Type: application/json
+
+{
+  "user_id": 
+  "name": "J",
+  "age": 5,
+  "breed": "Husky"
+}
+
+
+
 ### Users create (signup)
 POST http://localhost:3000/users
 Content-Type: application/json

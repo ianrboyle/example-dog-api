@@ -8,5 +8,7 @@ Rails.application.routes.draw do
   ###SESSION ROUTES
   post "/sessions" => "sessions#create"
 
-
+  ###DOG ROUTES WOOF
+  post "/dogs" => "dogs#create"
+  get "/dogs" => "dogs#index"
 end
